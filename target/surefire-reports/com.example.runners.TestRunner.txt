@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.example.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.837 s <<< FAILURE! - in com.example.runners.TestRunner
+Product - Store.Validación del precio de un producto  Time elapsed: 4.979 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 122.0.6261.129 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7IMGCDR', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0110A813+48355]
+	(No symbol) [0x0109C4B1]
+	(No symbol) [0x00FA5358]
+	(No symbol) [0x00FC61AC]
+	(No symbol) [0x00FC1EF3]
+	(No symbol) [0x00FC0579]
+	(No symbol) [0x00FF0C55]
+	(No symbol) [0x00FF093C]
+	(No symbol) [0x00FEA536]
+	(No symbol) [0x00FC82DC]
+	(No symbol) [0x00FC93DD]
+	GetHandleVerifier [0x0136AABD+2539405]
+	GetHandleVerifier [0x013AA78F+2800735]
+	GetHandleVerifier [0x013A456C+2775612]
+	GetHandleVerifier [0x011951E0+616112]
+	(No symbol) [0x010A5F8C]
+	(No symbol) [0x010A2328]
+	(No symbol) [0x010A240B]
+	(No symbol) [0x01094FF7]
+	BaseThreadInitThunk [0x7600FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x777280CE+286]
+	RtlGetAppContainerNamedObjectPath [0x7772809E+238]
+
+

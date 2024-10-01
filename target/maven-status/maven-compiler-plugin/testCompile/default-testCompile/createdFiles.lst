@@ -1,0 +1,3 @@
+com\example\runners\TestRunner.class
+com\example\AppTest.class
+com\example\stepdefinitions\StoreSteps.class
