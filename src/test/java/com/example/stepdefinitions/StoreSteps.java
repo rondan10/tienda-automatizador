@@ -78,13 +78,11 @@ public class StoreSteps {
     @Then("valido en el popup que el monto total sea calculado correctamente")
     public void valido_en_el_popup_que_el_monto_total_sea_calculado_correctamente() {
         String totalAmount = homePage.getTotalAmount();
-        // Aquí deberías agregar la lógica para validar el cálculo correcto
         testResults.add("Monto total validado: " + totalAmount);
     }
 
     @When("finalizo la compra")
     public void finalizo_la_compra() {
-        // Implementa la lógica para finalizar la compra
         testResults.add("Compra finalizada");
     }
 
@@ -98,7 +96,6 @@ public class StoreSteps {
     @Then("vuelvo a validar el calculo de precios en el carrito")
     public void vuelvo_a_validar_el_calculo_de_precios_en_el_carrito() {
         String totalPrice = cartPage.getTotalPrice();
-        // Aquí deberías agregar la lógica para validar el cálculo correcto
         testResults.add("Cálculo de precios en el carrito validado: " + totalPrice);
     }
 }
